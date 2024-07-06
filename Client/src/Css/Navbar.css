@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1b324b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0; 
+}
+
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00, #009688);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .navbar-links a:hover {
+    background: linear-gradient(45deg, #ff6f61, #ffcc00, #009688);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .navbar-signin button {
+    padding: 8px 16px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Roboto";
+  }
+  
+  .navbar-signin button:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff6f61, #b5f4ed);
+  }
+  

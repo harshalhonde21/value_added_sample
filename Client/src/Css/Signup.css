@@ -1,0 +1,86 @@
+/* AuthForms.css */
+
+.home {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #4a69bd 100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Roboto", sans-serif;
+    width: 99vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.glass-structure {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.glass-structure form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.glass-structure input[type="text"],
+.glass-structure input[type="email"],
+.glass-structure input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.glass-structure input[type="text"]::placeholder,
+.glass-structure input[type="email"]::placeholder,
+.glass-structure input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.glass-structure input[type="text"]:focus,
+.glass-structure input[type="email"]:focus,
+.glass-structure input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cta-button {
+    background: linear-gradient(45deg, #ff6f61, #ffcc00, #009688);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background: linear-gradient(45deg, #009688, #ff6f61, #ffcc00);
+}
+
+.toggle-form {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-form:hover {
+    text-decoration: underline;
+}
